@@ -1,4 +1,25 @@
-html, body {
-    margin: 0;
-    padding: 0;
+.whole-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 0 0 grey;
+    margin: 3px 0;
+}
+
+.image {
+    margin-left: 40px;
+    height: 150px;
+    width: auto;
+}
+
+.nav-items {
+    list-style: none;
+    font-weight: 800;
+    font-size: 20pt;
+    display: flex;
+    margin-right: 40px;
+}
+
+.nav-items li {
+    padding: 30px;
 }
