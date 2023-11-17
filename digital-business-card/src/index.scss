@@ -1,0 +1,116 @@
+body {
+    background-color: #23252C;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.app {
+    background-color:#1A1B21 ;
+    width: 317px;
+    height: 780px;
+    position: absolute;
+    left: 116px;
+    top: 44px;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+}
+
+.header--img {
+    border-radius: 10px;
+}
+
+.header--img--comp {
+    border-radius: 10px 10px 0 0;
+}
+
+.header--name {
+    font-size: 25px;
+    color: white;
+    font-weight: 450;
+    margin: 15px 0 0 0 ;
+}
+
+.header--jobtitle {
+    font-size: 15px;
+    color: #F3BF99;
+    font-weight: 150;
+    margin: 5px 0 0 0;
+}
+
+.header--website {
+    font-size: 11px;
+    color: #F5F5F5;
+    font-weight: 50;
+    margin: 5px 0 0 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact--emailbutton, .contact--libutton {
+    width: 115px;
+    height: 34px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.faIcons, .buttonName {
+    margin: 6px 0 0 0px;
+}
+
+.buttonName {
+    margin-left: 5px;
+}
+
+.contact--libutton {
+    background-color: #5093E2;
+    color: white;
+}
+
+.main {
+    color: #F5F5F5;
+    text-align: left;
+    width: 247px;
+    position: relative;
+    left: 35px;
+    padding-top: 30px;
+}
+
+.main--heading {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.main--para {
+    font-size: 10px;
+    color: lightgray;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 12px;
+}
+
+.footer {
+    background-color: #161619;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #918E9B;
+    height: 64px;
+    position: relative;
+    margin-top: 21px;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    font-size: 25px;
+}
+
+.media--icons {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}

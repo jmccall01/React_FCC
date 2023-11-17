@@ -6,15 +6,19 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact() {
     return (
-        <div>
-            <button className="contact--emailbutton">
-                <FontAwesomeIcon icon={faEnvelope} />
-                <p>Email</p>
-            </button>
-            <button className="contact--emailbutton">
-                <FontAwesomeIcon icon={faLinkedin} />
-                <p>Linkedin</p>
-            </button>
+        <div className="contact">
+            <a href="mailto: josh.mccall01@outlook.com" class="contact--link">
+                <button className="contact--emailbutton">
+                    <FontAwesomeIcon className="faIcons" icon={faEnvelope} />
+                    <p className="buttonName">Email</p>
+                </button>
+            </a>
+            <a href="" class="contact--link">
+                <button className="contact--libutton">
+                    <FontAwesomeIcon className="faIcons" icon={faLinkedin} />
+                    <p className="buttonName">Linkedin</p>
+                </button>
+            </a>
         </div>
     )
 }

@@ -4,10 +4,11 @@ import HeaderInfo from "./components/HeaderInfo";
 import Contact from "./components/Contact";
 import MainContent from "./components/MainContent";
 import FooterSocials from "./components/Footer";
+import './index.scss';
 
 export default function App(){
     return(
-        <div>
+        <div className="app">
             <HeaderImage />
             <HeaderInfo />
             <Contact />

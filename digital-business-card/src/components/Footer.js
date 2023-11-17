@@ -4,11 +4,11 @@ import {faFacebook, faTwitter, faSquareInstagram, faSquareGithub } from '@fortaw
 
 export default function FooterSocials() {
     return (
-        <div>
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faFacebook} />
-            <FontAwesomeIcon icon={faSquareInstagram} />
-            <FontAwesomeIcon icon={faSquareGithub} />
+        <div className="footer">
+            <FontAwesomeIcon icon={faTwitter} className="media--icons" />
+            <FontAwesomeIcon icon={faFacebook} className="media--icons"/>
+            <FontAwesomeIcon icon={faSquareInstagram} className="media--icons"/>
+            <FontAwesomeIcon icon={faSquareGithub} className="media--icons"/>
         </div>
     )
 }
