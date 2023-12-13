@@ -1,4 +1,4 @@
-# Here are screenshots from each of the projects </br> - All projects were based on a Figma file-
+# Here are screenshots from each of the projects </br> - All project designs were based on a design file-
 </br>
 </br>
 
